@@ -1,0 +1,92 @@
+
+<section id="skills" class="section">
+  <h2 class="section-title">Tech <span>Skills</span></h2>
+  <div class="skills-grid">
+    <div class="skill-card"><i class="fa-brands fa-java"></i> Java</div>
+    <div class="skill-card"><i class="fa-solid fa-database"></i> Oracle SQL</div>
+    <div class="skill-card"><i class="fa-brands fa-js"></i> JavaScript</div>
+    <div class="skill-card"><i class="fa-brands fa-html5"></i> HTML & CSS</div>
+    <div class="skill-card"><i class="fa-solid fa-code"></i> Node.js</div>
+    <div class="skill-card"><i class="fa-solid fa-toolbox"></i> Utility Tool</div>
+  </div>
+</section>
+
+
+<section id="experience" class="section">
+  <h2 class="section-title">Work <span>Experience</span></h2>
+  <div class="timeline">
+    <div class="timeline-item">
+      <h3>Tata Consultancy Services (TCS)</h3>
+      <p class="role">Software Developer <span>| Mar 2023 - Present</span></p>
+      <ul>
+        <li>Built and managed Trade Finance apps for SBI.</li>
+        <li>Automated data migration using Oracle SQL scripts.</li>
+        <li>Created web interfaces using HTML, JS, and Java.</li>
+        <li>Followed Agile & SDLC to ensure quality delivery.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+<section id="achievements" class="section">
+  <h2 class="section-title">Key <span>Achievements</span></h2>
+  <div class="achievement-cards">
+    <div class="card">
+      <h4>⭐ Star of the Month</h4>
+      <p>Awarded by TCS for exceptional project delivery and performance.</p>
+    </div>
+    <div class="card">
+      <h4>🏆 Award of Excellence</h4>
+      <p>Received from SBI Global IT Center for dedication and success in Trade Finance module deployment.</p>
+    </div>
+  </div>
+</section>
+
+
+<section id="education" class="section">
+  <h2 class="section-title">My <span>Education</span></h2>
+  <div class="edu-grid">
+    <div class="edu-item">
+      <h4>B.Tech - Aurora's Technological & Research Institute</h4>
+      <p>Graduated in 2022 | CGPA: 67.7%</p>
+    </div>
+    <div class="edu-item">
+      <h4>Diploma - TRR College of Polytechnic</h4>
+      <p>Completed in 2018 | Percentage: 77%</p>
+    </div>
+  </div>
+</section>
+
+
+<section id="strengths" class="section">
+  <h2 class="section-title">Core <span>Strengths</span></h2>
+  <div class="strengths">
+    <div class="strength-item">
+      <i class="fa-solid fa-bolt"></i>
+      <p>Excellence commitment & task clarity</p>
+    </div>
+    <div class="strength-item">
+      <i class="fa-solid fa-lightbulb"></i>
+      <p>Simplifying complex problems</p>
+    </div>
+    <div class="strength-item">
+      <i class="fa-solid fa-repeat"></i>
+      <p>Creating efficient reusable logic</p>
+    </div>
+  </div>
+</section>
+
+<section id="extras" class="section">
+  <h2 class="section-title">Beyond <span>Code</span></h2>
+  <p>Head of NSS with strong leadership skills. Also an artist with a passion for pencil portraits.</p>
+  <div class="gallery">
+    <img src="art1.jpg" alt="Sketch 1" />
+    <img src="art2.jpg" alt="Sketch 2" />
+    <img src="art3.jpg" alt="Sketch 3" />
+  </div>
+</section>
+
+
+
+

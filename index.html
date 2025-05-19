@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emmy</title>
+
+  <!-- icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+
+<header>
+    <a class="header-logo">Sairam<span>.</span></a>
+    <nav>
+	  <div class="nav-item" onclick="showSection('hero-section')">Home</div>
+	  <div class="nav-item" onclick="showSection('about-section')">About</div>
+	  <div class="nav-item" onclick="showSection('extras-section')">Beyond</div>
+
+    
+  </nav>
+    <button class="header-btn" onclick="showSection('contact-section')">Hire Me</button>
+  </header>
+  <div id="hero-section" class="section visible">
+  <section id="hero">
+  
+
+  <div class="content">
+    <div class="left">
+      <h3>Hi, I'm Sairam</h3>
+      <h1>Software <span>Developer</span></h1>
+      <p>
+        Experienced Software Developer at TCS, specializing in Trade Finance applications for SBI. Proficient in Java, JavaScript, Oracle SQL, and web technologies, with a focus on delivering efficient and reusable code.
+      </p>
+      <div class="social-section">
+        <a href="https://www.linkedin.com/in/ganganaboinasairam/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:ganganaboinasairam@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+	  
+	  
+    </div>
+
+    <div class="right">
+      <div class="img-wrap">
+        <img class="hero-img" src="profile.png" alt="Ganganaboina Sairam">
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+<div id="about-section" class="section" style="margin-top: 100px;">
+<section id="about">
+  <h2 class="section-title">About <span>Me</span></h2>
+  <div class="about-content glass-box">
+    <p>
+      I'm a passionate Software Developer at <strong>Tata Consultancy Services</strong> working on Trade Finance applications for the <strong>State Bank of India</strong>. I bring a full-stack approach with expertise in <span class="highlight">Java, JavaScript, Oracle SQL</span>, and more.
+    </p>
+    <p>
+      Known for writing clean, efficient, and reusable code. I simplify complex problems and follow Agile and SDLC principles to ensure scalable and maintainable systems.
+    </p>
+  </div>
+</section>
+</div>
+
+<div id="extras-section" class="section" style="margin-top: 100px;text-align:center;">
+
+<section id="extras">
+  <h2 class="section-title">Beyond <span>Code</span></h2>
+  <p>Head of NSS with strong leadership skills. Also an artist with a passion for pencil portraits.</p>
+  <div class="gallery">
+    <img src="arts/image1.jpg" alt="Sketch 1" />
+    <img src="arts/image2.jpg" alt="Sketch 1" />
+    <img src="arts/image3.jpg" alt="Sketch 1" />
+    <img src="arts/image4.jpg" alt="Sketch 1" />
+  </div>
+  <div class="social-section" style="item-align:center;">
+        <a href="https://www.linkedin.com/in/ganganaboinasairam/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+</section>
+</div>
+
+<div id="contact-section" class="section" style="margin-top: 100px;">
+
+<section id="contact" >
+  <h2 class="section-title">Let's <span>Connect</span></h2>
+  <div class="contact-info glass-box">
+    <p><i class="fa-solid fa-envelope"></i> <a href="mailto:sairam@email.com">sairam@email.com</a></p>
+    <p><i class="fa-brands fa-linkedin"></i> <a href="https://linkedin.com/in/ganganaboinasairam" target="_blank">LinkedIn Profile</a></p>
+  </div>
+</section>
+</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+
+</html>
