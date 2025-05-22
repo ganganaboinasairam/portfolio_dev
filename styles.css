@@ -51,6 +51,12 @@ header {
   line-height: 0.2;
 }
 
+.blt-point span{
+	font-size: 72px;
+  color: rgb(133, 40, 255);
+  line-height: 0.2;
+}
+
 nav {
   flex: 1;
   display: flex;
@@ -306,6 +312,10 @@ h1 span {
   backdrop-filter: blur(10px);
 }
 
+.about-content{
+	font-size:25px;
+}
+
 .card,
 .edu-item,
 .skill-card,
@@ -316,6 +326,8 @@ h1 span {
   text-align: center;
   box-shadow: var(--shadow, 0 4px 12px rgba(0, 0, 0, 0.1));
 }
+
+
 
 .hidden {
   opacity: 0;
